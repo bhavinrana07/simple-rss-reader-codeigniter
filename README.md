@@ -9,6 +9,18 @@ Project demonstrates the simple RSS FEED reader along with Codeigniter register 
 ```php
 $config['base_url'] = 'http://website.com/your-project-folder/';
 ```
+- create database : `rss_feed` (you can give any name)
+- create `users` table 
+```sql
+CREATE TABLE `users` (
+	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`first_name` VARCHAR(45) DEFAULT NULL,
+	`last_name` VARCHAR(45) DEFAULT NULL,
+	`email` VARCHAR(32) NOT NULL,
+	`password` VARCHAR(32) NOT NULL,
+	PRIMARY KEY (`id`)
+);
+```
 - database credentials : change the `hostname`, `username`, `password`, `database` in `project/application/config/database.php`. 
 
 
