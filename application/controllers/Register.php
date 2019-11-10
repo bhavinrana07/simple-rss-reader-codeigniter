@@ -52,6 +52,8 @@ class Register extends CI_Controller
 
         $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
         $this->form_validation->set_message('required', 'Enter %s');
+        $this->form_validation->set_message('is_unique', '%s is taken.');
+
     }
 
     /**
