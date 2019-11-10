@@ -1,6 +1,8 @@
 # Simple RSS Feed Reader in Codeigniter
 
 Project demonstrates the simple RSS FEED reader along with Codeigniter register and login forms using Codeigniter validations. 
+## Demo
+- Click [here](https://bhavin-rss-reader.000webhostapp.com/) to see the live demo. (this is a temporary link)
 ## Installation
 
 - drop the project in your server.
