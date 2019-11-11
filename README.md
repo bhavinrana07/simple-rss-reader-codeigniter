@@ -28,10 +28,13 @@ CREATE TABLE `users` (
 
 ## Features
 
-- Feeds Page : Extract data from RSS feed and show it on the page, collecting 10 most repeating words to create a top-menu 
-- Register and Login form Fully with `ajax`
-- Codeigniter from validator usage with `ajax`
-- checking `email` on the fly
+- Register and Login form validation with `ajax` (Codeigniter form validator)
+- Checking `email` on the fly
+- Feeds Page - Extract data from RSS feed and show it on the page 
+- Collecting 10 most repeating words to create a top-menu 
+- Listing feeds 
+- Filter feeds 
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
